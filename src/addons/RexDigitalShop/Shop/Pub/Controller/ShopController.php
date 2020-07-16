@@ -13,7 +13,9 @@ class ShopController extends AbstractController
     public function __construct()
     {
         $this->RexShop = new RexShop;
-        define('TIME_NOW', time());
+        if (!defined('TIME_NOW')) {
+            define('TIME_NOW', time());
+        }
     }
 
     public function actionIndex(ParameterBag $params)
