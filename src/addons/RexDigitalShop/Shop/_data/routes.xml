@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <routes>
 <route route_type="public" route_prefix="store" controller="RexDigitalShop\Shop:ShopController"/>
-<route route_type="public" route_prefix="rexshop-webhook" controller="RexDigitalShop\Shop:ShopController" action_prefix="webhook"/>
+<route route_type="public" route_prefix="rexshop-webhook" controller="RexDigitalShop\Shop:ShopController"  action_prefix="webhook" />
 
 <route route_type="admin" route_prefix="rex-shop" controller="RexDigitalShop\Shop:AdminController" />
 <route route_type="admin" route_prefix="rex-shop-gift" controller="RexDigitalShop\Shop:AdminController" action_prefix="gift" />

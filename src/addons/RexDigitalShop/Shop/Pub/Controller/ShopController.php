@@ -5,17 +5,22 @@ namespace RexDigitalShop\Shop\Pub\Controller;
 use XF\Mvc\ParameterBag;
 use XF\Pub\Controller\AbstractController;
 use RexDigitalShop\Shop\Library\RexShop;
+use XF\App;
+use XF\Http\Request;
 
 class ShopController extends AbstractController
 {
     private $RexShop;
 
-    public function __construct()
+    public function __construct(App $app, Request $request)
     {
         $this->RexShop = new RexShop;
+
         if (!defined('TIME_NOW')) {
             define('TIME_NOW', time());
         }
+
+        parent::__construct($app, $request);
     }
 
     public function actionIndex(ParameterBag $params)
@@ -44,8 +49,12 @@ class ShopController extends AbstractController
      *
      * @return httpresponse
      */
-    public function actionWebhook()
+    public function actionWebhook(ParameterBag $params)
     {
+        if (!isset($_POST)) {
+            return $this->rexshopOnFailure();
+        }
+
         $request = json_decode(file_get_contents("php://input"), true);
 
         if (!$this->RexShop->verifyWebhook($request)) {
@@ -256,13 +265,13 @@ class ShopController extends AbstractController
 
     private function rexshopOnSuccess()
     {
-        header("Status: 200 OK");
+        header("Status: 200 OK", 200);
         exit;
     }
 
     private function rexshopOnFailure()
     {
-        header('Status: 400 Bad Request');
+        header('Status: 400 Bad Request', 400);
         exit;
     }
 }

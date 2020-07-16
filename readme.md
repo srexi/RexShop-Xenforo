@@ -29,6 +29,6 @@ See the setup process in a short video:
 
 # Webhook URL
 To setup the webhook url properly make sure you set the link to the root of your misc.php file in the root of your forum like so:
-http://yoursite.com/forum/rexshop-webhook
+http://yoursite.com/forum/index.php?rexshop-webhook/
 
 - Replace "/forum" with where you forum is placed

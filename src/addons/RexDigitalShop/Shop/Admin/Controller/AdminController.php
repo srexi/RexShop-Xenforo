@@ -2,8 +2,8 @@
 
 namespace RexDigitalShop\Shop\Admin\Controller;
 
+use XF\Admin\Controller\AbstractController;
 use XF\Mvc\ParameterBag;
-use XF\Pub\Controller\AbstractController;
 use RexDigitalShop\Shop\Library\RexShop;
 
 class AdminController extends AbstractController
