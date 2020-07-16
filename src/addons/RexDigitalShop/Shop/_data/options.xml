@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+    <option option_id="rexshop_client_id" edit_format="textbox" data_type="string">
+        <default_value></default_value>
+        <relation group_id="rexshop" display_order="0"/>
+    </option>
+    <option option_id="rexshop_secret" edit_format="textbox" data_type="string">
+        <default_value></default_value>
+        <relation group_id="rexshop" display_order="1"/>
+    </option>
+    <option option_id="rexshop_api_key" edit_format="textbox" data_type="string">
+        <default_value></default_value>
+        <relation group_id="rexshop" display_order="2"/>
+    </option>
+    <option option_id="rexshop_excluded_usergroups" edit_format="textbox" data_type="string">
+        <default_value></default_value>
+        <relation group_id="rexshop" display_order="3"/>
+    </option>
+</options>

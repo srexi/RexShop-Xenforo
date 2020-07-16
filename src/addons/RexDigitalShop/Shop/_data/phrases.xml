@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+    <phrase title="option_group.rexshop" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Rex Digital Shop]]></phrase>
+    <phrase title="option_group_description.rexshop" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Sell usergroups automatically using rex digital shop.]]></phrase>
+    <phrase title="option.rexshop_client_id" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Client ID]]></phrase>
+    <phrase title="option_explain.rexshop_client_id" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your Client ID (Found on <a href="https://shop.rexdigital.group/merchant" target="_blank" rel="noopener">https://shop.rexdigital.group/merchant</a>)]]></phrase>
+    <phrase title="option.rexshop_secret" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Secret]]></phrase>
+    <phrase title="option_explain.rexshop_secret" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your Secret (Found on <a href="https://shop.rexdigital.group/merchant" target="_blank" rel="noopener">https://shop.rexdigital.group/merchant</a>)]]></phrase>
+    <phrase title="option.rexshop_api_key" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[API Key]]></phrase>
+    <phrase title="option_explain.rexshop_api_key" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your API Key (Found on <a href="https://shop.rexdigital.group/merchant" target="_blank" rel="noopener">https://shop.rexdigital.group/merchant</a>)]]></phrase>
+    <phrase title="option.rexshop_excluded_usergroups" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Excluded Usergroups]]></phrase>
+    <phrase title="option_explain.rexshop_excluded_usergroups" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[A comma seperated list of usergroups NOT allowed to view your store. (Example: 2,3,8,10)]]></phrase>
+    
+    <phrase title="cron_entry.rexshop_expire_subs" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[[RexDigitalShop]: Expires Subscriptions]]></phrase>
+
+    <phrase title="rexshop_membership_expired_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your membership has expired.]]></phrase>
+    <phrase title="rexshop_membership_expired_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your membership has expired. Go to the store to renew it.]]></phrase>
+    <phrase title="rexshop_purchase_pending_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Payment is processing!]]></phrase>
+    <phrase title="rexshop_purchase_pending_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your payment is currently pending, we will update you here once it clears.]]></phrase>
+    <phrase title="rexshop_purchase_refunded_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Payment was refunded!]]></phrase>
+    <phrase title="rexshop_purchase_refunded_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Your refund requests has been processed. Your membership duration has been adjusted accordingly.]]></phrase>
+    <phrase title="rexshop_purchase_completed_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Successful Purchase!]]></phrase>
+    <phrase title="rexshop_purchase_completed_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Thank you for your purchase. You are now upgraded.]]></phrase>
+    <phrase title="rexshop_purchase_reversed_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Payment was reversed!]]></phrase>
+    <phrase title="rexshop_purchase_reversed_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[The dispute has been closed in your favor. You will remain banned. If you wish to resolve it feel free to contact us.]]></phrase>
+    <phrase title="rexshop_purchase_disputed_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Payment was disputed!]]></phrase>
+    <phrase title="rexshop_purchase_disputed_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[You have opened a dispute. Please resolve this ASAP. You will remain banned until the dispute is closed in our favor.]]></phrase>
+    <phrase title="rexshop_purchase_dispute_canceled_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Payment dispute was canceled!]]></phrase>
+    <phrase title="rexshop_purchase_dispute_canceled_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[You have closed the dispute, thank you! You have been unbanned.]]></phrase>
+
+    <phrase title="admin_navigation.rexshop" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Rex Digital Shop]]></phrase>
+    <phrase title="admin_navigation.rexshop_memberships" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Gift Membership]]></phrase>
+    <phrase title="admin_gift_upgrade_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[You received a gift]]></phrase>
+    <phrase title="admin_gift_upgrade_body" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[An admin has just sent you a membership gift, you are now upgraded!]]></phrase>
+</phrases>

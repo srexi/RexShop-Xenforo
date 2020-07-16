@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<admin_navigation>
+  <admin_navigation_entry navigation_id="rexshop" parent_navigation_id="users" display_order="1337" link="rex-shop" icon="fa-money" debug_only="0" development_only="0" hide_no_children="1"/>
+  <admin_navigation_entry navigation_id="rexshop_memberships" parent_navigation_id="rexshop" display_order="0" link="rex-shop" debug_only="0" development_only="0" hide_no_children="0"/>
+</admin_navigation>

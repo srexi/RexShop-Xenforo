@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Rex Digital Shop",
+    "description": "An official Rex Digital Shop integration which allows you to sell usergroups automatically.",
+    "version_id": 1,
+    "version_string": "1.0.0 Alpha",
+    "dev": "Rex Digital Group",
+    "dev_url": "https://rexdigital.group",
+    "faq_url": "https://shop.rexdigital.group/integrations/xenforo-2",
+    "support_url": "https://shop.rexdigital.group/support",
+    "extra_urls": [],
+    "require": [],
+    "icon": "/img/logo.png"
+}

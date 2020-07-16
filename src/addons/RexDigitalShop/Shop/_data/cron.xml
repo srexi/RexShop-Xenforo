@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cron>
+  <entry title="RexDigitalShop - Expire Subscriptions" entry_id="rexshop_expire_subs" cron_class="RexDigitalShop\Shop\Cron\ExpireSubscriptions" cron_method="handle" active="1"><![CDATA[{"day_type":"dom","dom":[-1],"hours":[-1],"minutes":[-1]}]]></entry>
+</cron>
