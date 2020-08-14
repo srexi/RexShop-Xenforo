@@ -26,6 +26,7 @@ class Setup extends AbstractSetup
 			$table->addColumn('suspended_seconds', 'int', 11)->setDefault(0);
 			$table->addColumn('enddate', 'int', 12);
 			$table->addColumn('expired', 'tinyint', 1)->setDefault(0);
+			$table->addColumn('addons', 'text')->setDefault('');
 			$table->addColumn('transaction_from', 'int', 12)->nullable(true);
 		});
 	}

@@ -255,6 +255,7 @@ class RexShop
             'transaction_status' => $this->regexEscape($request['transaction_status'], '/[^a-zA-Z0-9]/'),
             'transaction_from' => (int) $request['order']['initiated_at'],
             'country' => $this->regexEscape($request['customer']['country'], '/[^a-zA-Z]/'),
+            'addons' => json_encode($request['order']['products'][0]['addons'] ?? []),
             'enddate' => (int) $enddate,
             'expired' => ($enddate <= TIME_NOW && $enddate > -1 ? 1 : 0),
         ]);
