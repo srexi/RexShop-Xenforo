@@ -393,7 +393,7 @@ class RexShop
     {
         $usergroup = -1;
 
-        foreach ($request['products'] as $product) {
+        foreach ($request['order']['products'] as $product) {
             foreach ($product['addons'] as $addon) {
                 if (strtolower($addon['name']) !== 'usergroup') {
                     continue;
