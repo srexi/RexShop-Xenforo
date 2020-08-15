@@ -1,8 +1,8 @@
-A XenForo 2 plugin to integration with [Rex Digital Shop](https://shop.rexdigital.group).
+A XenForo 2 plugin to integrate with [Rex Digital Shop](https://shop.rexdigital.group).
 
 # Installation
 ## XenForo 2 Setup
-Upload the files to their apprpriate folders in xenforo you can just drag the 'src' folder into the forum root folder and everything will place itself correctly.
+Upload the files to their appropriate folders in xenforo you can just drag the 'src' folder into the forum root folder and everything will place itself correctly.
 Go to your xenforo admin panel and click on "Add-ons"(In the navigation bar) and then on "Add-ons" again.
 Find the Rex Digital Shop plugin and click "Install".
 
